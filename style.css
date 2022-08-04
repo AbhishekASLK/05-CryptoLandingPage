@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./assets/bg.png);
+    color: #ffffff;
+    background-size: cover;
+    font-family: 'Montserrat';
+    
+}
+
+/* ----------------NAVBAR-------------- */
+
+.navbar{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: black;
+}
+.grow-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-item{
+    padding: 0 11px;
+    margin-right: 10px;
+    margin-left: 12px;
+    list-style-type: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* .navbar > div{
+    border: 2px solid red;
+
+} */
+.list{
+    display: flex;
+}
+div.grow-list{
+    margin-left: -215px;
+    position: absolute;
+    margin-top: 12px;
+}
+img.logo{
+    /* border: 2px solid green; */
+    margin-left: -188px;
+    width: 92px;
+    padding-top: 10px;
+}
+button.button-small{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 174px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: rgb(212, 23, 212);
+    cursor: pointer;
+    color: #ffffff;
+}
+div.line{
+    margin-top: 3px;
+    margin-right: 858px;
+    position: absolute;
+    height: 42px;
+    width: 1px;
+    color: white;
+    background-color: white;
+}
+nav{
+    position: relative;
+    padding: 12px 0;
+}
+.line{
+    border: 0.5px solid white;
+}
+.hero{
+    text-align: center;
+    margin: 131px;
+    padding: 21px 148px;
+}
+h1{
+    font-size: 3.5rem;
+    padding: 0 130px;
+}
+.hero-description{
+    font-size: 22px;
+    padding-top: 9px;
+}
+.button-large{
+    padding: 17px 36px;
+    border-radius: 7px;
+    background-color: rgb(212, 23, 212);
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 44px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.fa-solid{
+    padding: 0px 2px;
+}
